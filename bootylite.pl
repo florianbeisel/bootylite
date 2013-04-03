@@ -11,6 +11,10 @@ use List::Util qw(min max);
 # load configuration from bootylite.conf
 my $config = plugin 'config';
 
+# set the server port to 8090
+app->config(hypnotoad => {listen => ['http://*:8090']});
+
+
 # set cookie secret
 app->secret($config->{secret} // 'Bootylite');
 
