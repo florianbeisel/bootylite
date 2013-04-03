@@ -102,6 +102,17 @@ get '/' => sub {
         has_next_page   => $perpage < @articles,
     );
 
+    # get tag cloud: {tag => amount}
+    my $amount  = $self->booty->get_tags;
+
+    # store
+    $self->stash(
+        tags    => [sort keys %$amount],
+        amount  => $amount,
+    );
+
+    $plugins->call_tags($self);
+
     $plugins->call_index($self);
 } => 'index';
 
@@ -148,6 +159,17 @@ get '/articles/:article_url' => sub {
     $self->stash(article => $article);
 
     $plugins->call_article($self);
+
+    # get tag cloud: {tag => amount}
+    my $amount  = $self->booty->get_tags;
+
+    # store
+    $self->stash(
+        tags    => [sort keys %$amount],
+        amount  => $amount,
+    );
+
+    $plugins->call_tags($self);
 } => 'article';
 
 # archive
@@ -178,6 +200,18 @@ get '/articles' => sub {
     $self->stash(articles => \%articles);
 
     $plugins->call_archive($self);
+
+    # get tag cloud: {tag => amount}
+    my $amount  = $self->booty->get_tags;
+
+    # store
+    $self->stash(
+        tags    => [sort keys %$amount],
+        amount  => $amount,
+    );
+
+    $plugins->call_tags($self);
+
 } => 'archive';
 
 # articles by tag
@@ -187,6 +221,18 @@ get '/tag/:tag' => sub {
     # get articles
     my $tag         = $self->param('tag');
     my @articles    = reverse $self->booty->get_articles_by_tag($tag);
+
+    # get tag cloud: {tag => amount}
+    my $amount  = $self->booty->get_tags;
+
+    # store
+    $self->stash(
+        tags    => [sort keys %$amount],
+        amount  => $amount,
+    );
+
+    $plugins->call_tags($self);
+
     $self->render_not_found and return unless @articles;
 
     # store

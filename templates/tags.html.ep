@@ -1,6 +1,6 @@
-% layout 'bootyblack';
-% title config('name') . ' - All tags';
-<h1>All tags</h1>
+% layout 'effloresque';
+% title config('name');
+
 <div id="tags">
 % use List::Util qw(min max);
 % my $min_size  = config 'tag_cloud_min';

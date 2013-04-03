@@ -1,5 +1,5 @@
-% layout 'bootyblack';
-% title config('name') . ' - NOT FOUND!';
+% layout 'effloresque';
+% title config('name');
 <h1>Whoops!</h1>
-<p>I couldn't find what you were looking for. Sorry!</p>
+<p>Leider konnten war der gesuchte Inhalt nicht zu finden.</p>
 

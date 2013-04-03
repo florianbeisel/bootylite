@@ -1,4 +1,4 @@
-% layout 'bootyblack';
+% layout 'effloresque';
 % title config('name') . ' - Page ' . $page;
 <h1>Page <%= $page %></h1>
 %= include 'list_articles', single => 0

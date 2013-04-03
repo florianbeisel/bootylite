@@ -1,0 +1,394 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"product_file"
+			],
+			[
+				"pass",
+				"pass_crypt"
+			],
+			[
+				"regist",
+				"registrieren"
+			],
+			[
+				"Bestellung",
+				"Bestellung"
+			],
+			[
+				"lin",
+				"link_to"
+			],
+			[
+				"produ",
+				"product_id"
+			],
+			[
+				"prod",
+				"products"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"_",
+				"_build_product_raw_data"
+			],
+			[
+				"link",
+				"linkedList"
+			],
+			[
+				"get",
+				"getProduct"
+			],
+			[
+				"zut",
+				"zutaten"
+			],
+			[
+				"naeh",
+				"naehrwerte"
+			],
+			[
+				"p",
+				"PRODUCTS"
+			],
+			[
+				"pr",
+				"product_id"
+			],
+			[
+				"produc",
+				"products"
+			],
+			[
+				"styl",
+				"style"
+			],
+			[
+				"product",
+				"product_id"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"th",
+				"thumb-1"
+			],
+			[
+				"lay",
+				"layout"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"SMPT",
+				"SMTP_SETTINGS"
+			],
+			[
+				"SMTP",
+				"SMTP_PORT"
+			],
+			[
+				"SMTP_",
+				"SMTP_PORT"
+			],
+			[
+				"file",
+				"filename"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"sspl",
+				"Set Syntax: Perl"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Loop"
+			],
+			[
+				"perl",
+				"Set Syntax: Perl"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/florian/bootylite/bootylite.conf",
+		"/Users/florian/bootylite/bootylite.pl",
+		"/Users/florian/bootylite/README.md",
+		"/Users/florian/bootylite/drafts/2013-04-03-21-58_Mailboxgroessee per Mail versenden.md",
+		"/Users/florian/bootylite/drafts/2013-04-03-21-58_Mailboxgröße per Mail versenden.md",
+		"/Users/florian/bootylite/drafts/2013-04-03-22-00_nullrouting.md",
+		"/Users/florian/bootylite/drafts/2011-04-05-23-42_draft1.md",
+		"/Users/florian/Shopolicious/lib/Products.pm",
+		"/Users/florian/Shopolicious/myapp.pl",
+		"/Users/florian/Shopolicious/products/Milka Weisse.md",
+		"/Users/florian/Shopolicious/products/Milka Haselnuss.md",
+		"/Users/florian/Shopolicious/users.txt",
+		"/Users/florian/MyFirstMojo/lib/Products.pm",
+		"/Users/florian/Shopolicious/products/Haribo Goldbären Minibeutel.md",
+		"/Users/florian/Shopolicious/lib/MyUsers.pm",
+		"/Users/florian/MyFirstMojo/products/Haribo Goldbären Minibeutel.md",
+		"/Users/florian/Shopolicious/products/Kinder Riegel.md",
+		"/Users/florian/Shopolicious/products/Maoam Stripes.md",
+		"/Users/florian/Shopolicious/products/Milka & Oreo.md",
+		"/Users/florian/Shopolicious/products/PickUp Black & White.md",
+		"/Users/florian/Shopolicious/products/Trolli Mini Burger.md",
+		"/Users/florian/Dropbox/Siller/mailmover.pl",
+		"/Users/florian/Dropbox/Siller/customize_uberspace.sh",
+		"/Users/florian/MyFirstMojo/products/Trolli Mini Burger.md",
+		"/Users/florian/MyFirstMojo/products/Haribo Goldbären Minibeutel.md",
+		"/Users/florian/MyFirstMojo/lib/MyUsers.pm",
+		"/Users/florian/MyFirstMojo/myapp.pl",
+		"/Users/florian/MyFirstMojo/products/Maoam Stripes.md",
+		"/Users/florian/MyFirstMojo/products/Milka & Oreo.md",
+		"/Users/florian/MyFirstMojo/products/PickUp Black & White.md",
+		"/Users/florian/MyFirstMojo/products/Kinder Riegel.md",
+		"/Users/florian/Downloads/fauxmocha/index.html",
+		"/Users/florian/MyFirstMojo/public/css/lightbox.css",
+		"/Users/florian/MyFirstMojo/public/css/screen.css",
+		"/Users/florian/MyFirstMojo/public/js/lightbox.js",
+		"/Users/florian/OmaMonisKochbuch/linzer-käsekuchen.md",
+		"/Users/florian/OmaMonisKochbuch/Zwetschgenkuchen.md",
+		"/Users/florian/OmaMonisKochbuch/Käsekuchen.md",
+		"/Users/florian/OmaMonisKochbuch/Kartoffelauflauf.md",
+		"/Users/florian/OmaMonisKochbuch/Knoblauchbrot.md",
+		"/Users/florian/OmaMonisKochbuch/Knoblauchsuppe.md",
+		"/Users/florian/OmaMonisKochbuch/Mandelbögen.md",
+		"/Users/florian/OmaMonisKochbuch/Quark-Rosinen-Schnitten.md",
+		"/Users/florian/OmaMonisKochbuch/Tiramisu Schnitten.md",
+		"/Users/florian/OmaMonisKochbuch/Rote Grütze-Kuchen.md",
+		"/Users/florian/OmaMonisKochbuch/Rosinenschnecken vom Blech.md",
+		"/Users/florian/OmaMonisKochbuch/Abfel-Schmand-Schnitten.md",
+		"/Users/florian/OmaMonisKochbuch/Nougat-Marmorkuchen.md",
+		"/Users/florian/Dropbox/Siller/testbed/mailmover.pl",
+		"/Users/florian/tweetylicious/tweetylicious.pl",
+		"/Users/florian/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/florian/Shopolicious",
+			"/Users/florian/MyFirstMojo"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"draft",
+			"draf",
+			"nährwerte",
+			"your",
+			"waren",
+			"sidebar",
+			"account",
+			"log",
+			"/Regist",
+			"/regi",
+			"/regist",
+			"login",
+			"/check",
+			"/checkuot",
+			"/warenkor",
+			"produc",
+			"<h2>",
+			"debug",
+			"/warenkorb/del",
+			"/warenkorb/delete",
+			"session ",
+			"cart",
+			"$cart",
+			"session",
+			"log",
+			";",
+			"schoko",
+			"/categori",
+			"suesse-deals.de",
+			"use data",
+			"zutaten",
+			"tags",
+			"'",
+			"article",
+			"getproducts",
+			"naehrwerte",
+			"stripes",
+			"	$self->stash(naehrwerte => $products{$product_id}{naehrwerte});",
+			"dumper",
+			"data::dump",
+			"MyUsers",
+			"close.png",
+			"images",
+			"product.css",
+			"hello",
+			"if",
+			"1 unbehandelte Zitrone\n350 g Mehl\n150 g Zucker\n2 Päckchen Vanillin Zucker\n1 Prise Salz\n200 g Butter oder Magarine\n2 Eier",
+			"mailtype",
+			"'NOS'",
+			"florian@pacey.me",
+			"MAIL_DEST",
+			"=>",
+			"SMTP",
+			"use constant",
+			"$SMTP_",
+			"my $SMTP",
+			"my",
+			"phoeni",
+			"use constant ",
+			"smile",
+			"=> 25",
+			"MAILHOST",
+			"host",
+			"MAILHOST,",
+			"backup",
+			"var",
+			"test",
+			"';\n",
+			"this"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<h2 style=\"border-bottom: 1px silver dotted;\">",
+			",",
+			"suessedeals.de",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"lig",
+				"public/js/lightbox.js"
+			],
+			[
+				"untitled",
+				"untitled"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true
+}

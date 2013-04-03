@@ -1,10 +1,10 @@
-% layout 'bootyblack';
-% title config('name') . ' - Archive';
+% layout 'effloresque';
+% title config('name');
 % my @months = qw(
-%   January February March April May June
-%   July August September October November December
+%   Januar Februar März April Mai Juni
+%   Juli August September Oktober November Dezember
 % );
-<h1>Archive</h1>
+	
 % foreach my $year (sort {$a<=>$b} keys %$articles) {
 <h2><%= $year %></h2>
 <ul class="months">

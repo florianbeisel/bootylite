@@ -1,6 +1,5 @@
-% layout 'bootyblack';
+% layout 'effloresque';
 % title config 'name';
-<h1>Home</h1>
 %= include 'list_articles', single => 0
 % if ($has_next_page) {
 <p class="pager"><%= link_to paged => {page => 2} => (class => 'btn small') => begin %>Earlier<% end %></p>
