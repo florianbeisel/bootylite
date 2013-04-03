@@ -40,7 +40,7 @@ Released   : 20131203
 		<div id="header">
 			<div id="logo">
 				<h1><a href="#"><%= title %></a></h1>
-				<p>template design by <a href="http://www.freecsstemplates.org/">FCT</a></p>
+				<p>Innovation by Design</p>
 			</div>
 		</div>
 	</div>
