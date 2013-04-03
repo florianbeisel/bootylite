@@ -1,0 +1,18 @@
+% layout 'bootyblack';
+% title config('name') . ' - Archive';
+% my @months = qw(
+%   January February March April May June
+%   July August September October November December
+% );
+<h1>Archive</h1>
+% foreach my $year (sort {$a<=>$b} keys %$articles) {
+<h2><%= $year %></h2>
+<ul class="months">
+%   foreach my $month (sort {$a<=>$b} keys %{$articles->{$year}}) {
+    <li><strong><%= $months[$month-1] %></strong>
+%=      include 'list_articles_short', articles => $articles->{$year}{$month}
+    </li>
+%   }
+</ul>
+% }
+

@@ -1,0 +1,6 @@
+% my $feed_url = url_for 'tag_feed', tag => $tag, format => 'xml';
+% layout 'bootyblack', tag_feed_url => $feed_url;
+% title config('name') . ' - Tag ' . $tag;
+<h1>Tag <%= $tag %></h1>
+%= include 'list_articles', single => 0
+

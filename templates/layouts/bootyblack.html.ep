@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title><%= title %></title>
+<%= stylesheet '/styles.css' %>
+<link rel="alternate" type="application/atom+xml" title="ATOM feed" href="<%= url_for 'feed', format => 'xml' %>">
+% if (defined stash 'tag_feed_url') {
+<link rel="alternate" type="application/atom+xml" title="ATOM tag feed" href="<%= stash 'tag_feed_url' %>">
+% }
+</head>
+<body>
+<div id="top">
+    <div id="inner">
+        <p id="name">
+            <%= link_to config('name') => 'index' %>
+        </p>
+        <ul id="navi">
+            <li><%= link_to Home    => 'index' %></li>
+            <li><%= link_to Archive => 'archive' %></li>
+            <li><%= link_to Tags    => 'tags' %></li>
+% foreach my $page (@{booty->pages}) {
+%   my $url = url_for 'page', page_url => $page->url;
+            <li><a href="<%= $url %>"><%= $page->meta->{title} %></a></li>
+% }
+        </ul>
+    </div><!-- inner -->
+</div><!-- top -->
+<div id="content">
+%= content
+</div><!-- content -->
+<div id="footer">
+    <p>&copy; <%= strftime '%Y', localtime %> <%= config 'author' %></p>
+</div><!-- footer -->
+</body>
+</html>

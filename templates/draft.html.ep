@@ -1,0 +1,4 @@
+% layout 'bootyblack';
+% title config('name') . ' - ' . $draft->meta->{title};
+%= include 'show_article', article => $draft, single => 1
+

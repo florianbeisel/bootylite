@@ -1,0 +1,6 @@
+<div id="articles">
+% foreach my $article (@$articles) {
+%=  include 'show_article', article => $article, single => $single
+% }
+</div>
+

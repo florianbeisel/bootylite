@@ -1,0 +1,13 @@
+% layout 'bootyblack';
+% title config('name') . ' - Page ' . $page;
+<h1>Page <%= $page %></h1>
+%= include 'list_articles', single => 0
+<p class="pager">
+% if (defined $prev_page) {
+    <%= link_to paged => {page => $prev_page} => (class => 'btn small') => begin %>Later<% end %>
+% }
+% if (defined $next_page) {
+    <%= link_to paged => {page => $next_page} => (class => 'btn small') => begin %>Earlier<% end %>
+% }
+</p>
+

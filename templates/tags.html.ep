@@ -1,0 +1,19 @@
+% layout 'bootyblack';
+% title config('name') . ' - All tags';
+<h1>All tags</h1>
+<div id="tags">
+% use List::Util qw(min max);
+% my $min_size  = config 'tag_cloud_min';
+% my $max_size  = config 'tag_cloud_max';
+% my $min       = min values %$amount;
+% my $max       = max values %$amount;
+% my $count     = @$tags;
+% foreach my $tag (@$tags) {
+%   my $ratio   = $amount->{$tag} / $max;
+%   my $size    = $min_size + $ratio * ($max_size - $min_size);
+%   my $sstr    = sprintf '%.2f', $size;
+%   my $url     = url_for 'tag', tag => $tag;
+    <%= link_to $url => (style => 'font-size: ' . $sstr . 'em') => begin %><%= $tag %><% end %>
+% }
+</div><!-- tags -->
+
