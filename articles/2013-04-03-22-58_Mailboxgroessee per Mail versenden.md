@@ -15,7 +15,7 @@ Ein möglicher Einsatzbereich, wäre in meinen Augen die Auswertung interner Mai
     
     $MessageSubject = "Mailbox Grössen Report"
     $MessageBody = "Im Anhang befindet sich die aktualle Liste mit den Mailboxgrößen"
-    $SendingServer = "mail.genodata.de"
+    $SendingServer = "mail.example.com"
     
     ### Fetch Statistics and Store in a LogFile. 
     Get-MailboxStatistics | where {$_.ObjectClass –eq “Mailbox”} 
