@@ -12,3 +12,9 @@ MANIFEST*
 pm_to_blib
 
 *.pid
+
+*.sublime-project
+
+*.sublime-project
+
+*.sublime-workspace
