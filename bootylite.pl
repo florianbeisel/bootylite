@@ -12,7 +12,8 @@ use List::Util qw(min max);
 my $config = plugin 'config';
 
 # set the server port to 8090
-app->config(hypnotoad => {listen => ['http://*:8090']});
+app->config(hypnotoad => {listen => ['http://*:8090'],
+                            proxy => 1});
 
 
 # set cookie secret
