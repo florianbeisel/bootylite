@@ -1,4 +1,4 @@
-<div class="article">
+<div class="post">
 %   if ($single) {
     <h1><%= $article->meta->{title} %></h1>
 %   } else {
