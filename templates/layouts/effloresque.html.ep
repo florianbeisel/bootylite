@@ -87,7 +87,7 @@ Released   : 20131203
 							</script></p>
 						</li>
 						<li>
-							<h2>Categories</h2>
+							<h2>Kategorien:</h2>
 								%= $self->render('tags_sidebar', partial => 1 );
 
 						</li>
