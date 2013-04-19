@@ -1,5 +1,5 @@
 Title: Exchange Mailboxgrößen per Mail versenden
-Tags: Exchange
+Tags: exchange
 
 Dieser Artikel ist in ähnlicher Form vor 2 Jahren auf [pacey.me](http://pacey.me) veröffentlicht.
 
