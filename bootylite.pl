@@ -2,6 +2,7 @@
 
 use FindBin '$Bin';
 use lib "$Bin/lib";
+use lib "$Bin/submodules/comments/lib";
 use Mojolicious::Lite;
 use Bootylite;
 use Bootylite::Plugins;
