@@ -1,4 +1,4 @@
-Title: Speichernutzung des SQL Servers anpassen
+Title: Speichernutzung des Microsoft SQL Servers anpassen
 Tags: mssql, speicher
 
 In den letzten Tagen habe ich die 2 physikalische SQL Server Systeme zu Testzwecken virtualisiert. 
