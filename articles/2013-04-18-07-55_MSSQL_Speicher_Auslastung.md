@@ -1,5 +1,5 @@
 Title: Speichernutzung des Microsoft SQL Servers anpassen
-Tags: mssql, speicher
+Tags: mssql,speicher
 
 In den letzten Tagen habe ich die 2 physikalische SQL Server Systeme zu Testzwecken virtualisiert. 
 Da ich selbst erstmal suchen mußte wie ich nach der Konvertierung den SQL Server auf ein (für VMs) 

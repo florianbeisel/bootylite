@@ -1,5 +1,5 @@
 Title: Outlook Kontakte auf Lync / OCS Kompatibilität überprüfen
-Tags: outlook, exchange, lync, office365
+Tags: outlook,exchange,lync,office365
  
 Man hat es geschafft, einen Lync/ OCS Server ans Laufen zu bringen oder hat einfach Office365 inkl. Lync 2013, aber woher weiß man, mit wem man in Kontakt treten kann?
  
