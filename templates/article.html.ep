@@ -3,25 +3,30 @@
 %= include 'show_article', article => $article, single => 1
 
   %#---------------------------------------------------------
-        <h2>Comments</h2>
+        <h2>Kommentare</h2>
         <div id="comments">
         % if (flash 'comment_saved') {
-            <p id="message">Thanks! Comment saved!</p>
+            <p id="message">Dankeschön! Ihr Kommentar wurde gespeichert</p>
         % }
         % foreach my $comment (@{$article->comments}) {
-            <div class="comment">
-                <p class="name"><%= $comment->meta->{name} %></p>
+        % use Digest::MD5 qw(md5_hex);
+        % my $grav_url = "http://www.gravatar.com/avatar/".md5_hex(lc $comment->meta->{email})."?size=20";
+            <div class="post">
+                <p class="name"><img src="<%= $grav_url; %>"> <%= $comment->meta->{name} %></p>
                 <%== $comment->html %>
             </div>
         % }
         </div>
         %#---------------------------------------------------------
         <%= form_for post_comment => (method => 'post') => begin %>
-            <p>Add your comment:</p>
+            <p>Kommentar hinzufügen:</p>
             <p>Name: <%= input_tag 'name' %></p>
-            <p>Mail: <%= input_tag 'mail' %> (used for Gravatar pics only)</p>
+            <p>Mail: <%= input_tag 'mail' %></p>
             <%= text_area comment => cols => 60 => rows => 5 %>
-            <p><%= submit_button 'Submit comment' %></p>
+            <p><%= submit_button 'Kommentar speichern' %></p>
             <%= hidden_field article_url => $article->url %>
         <% end %>
         %#---------------------------------------------------------
+
+
+
