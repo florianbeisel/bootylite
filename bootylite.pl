@@ -138,6 +138,17 @@ get '/page/:page' => [page => qr/[1-9]\d*/] => sub {
     my $prev_page   = $page > 1 ? $page - 1 : undef;
     my $next_page   = $end < $#articles ? $page + 1 : undef;
 
+ # get tag cloud: {tag => amount}
+    my $amount  = $self->booty->get_tags;
+
+    # store
+    $self->stash(
+        tags    => [sort keys %$amount],
+        amount  => $amount,
+    );
+
+    $plugins->call_tags($self);
+
     # store
     $self->stash(
         articles    => \@paged,
@@ -270,6 +281,17 @@ get '/pages/:page_url' => sub {
     my $url     = $self->param('page_url');
     my $page    = $self->booty->get_page($url);
     $self->render_not_found and return unless $page;
+
+ # get tag cloud: {tag => amount}
+    my $amount  = $self->booty->get_tags;
+
+    # store
+    $self->stash(
+        tags    => [sort keys %$amount],
+        amount  => $amount,
+    );
+
+    $plugins->call_tags($self);
 
     # store
     $self->stash(page => $page);
