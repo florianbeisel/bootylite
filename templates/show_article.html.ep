@@ -19,6 +19,13 @@
             </a>
         </span>
     </p>
+%   if ($single) {
+    <p class="meta">
+    <a class="FlattrButton" href="<%= url_for 'article', article_url => $article->url %>" title="<%= $article->meta->{title} =%>">
+      <%= $article->meta->{description} =%>
+    </a>
+    </p>
+% }
     <div class="article-content">
 %   if ($single) {
 %       if ($article->second) {
