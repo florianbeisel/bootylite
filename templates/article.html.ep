@@ -10,9 +10,11 @@
         % }
         % foreach my $comment (@{$article->comments}) {
         % use Digest::MD5 qw(md5_hex);
-        % my $grav_url = "http://www.gravatar.com/avatar/".md5_hex(lc $comment->meta->{email})."?size=20";
+        % my $grav_url = "http://www.gravatar.com/avatar/".md5_hex(lc $comment->meta->{mail})."?size=20";
             <div class="post">
-                <p class="name"><img src="<%= $grav_url; %>"> <%= $comment->meta->{name} %></p>
+                <p class="name"><img src="<%= $grav_url; %>"> 
+                <%= $comment->meta->{name} %>
+                </p>
                 <%== $comment->html %>
             </div>
         % }
