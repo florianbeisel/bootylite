@@ -1,0 +1,3 @@
+[submodule "submodules/comments"]
+	path = submodules/comments
+	url = https://github.com/memowe/bootylite-plugin-comments.git
