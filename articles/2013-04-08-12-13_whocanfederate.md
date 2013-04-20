@@ -9,7 +9,7 @@ Diese Frage habe ich mir schon öfters gestellt, aber nie etwas passendes gefund
  
 Ich habe ein nützliches Tools namens "[Who can Federate Tool]" von Matt Landis entdeckt.
  
-Die Bedienung ist sehr simpel und funktioniert sehr gut. Es werden auch Kontakte erkannt, die Skype verwenden.
+Die Bedienung ist sehr simpel und funktioniert sehr gut.
  
 Nach der Installation, einfach den Kontakte Ordner von seinem Outlook Profil wählen und auf Scan klicken. Je nach Anzahl der Kontakte, kann es einige Zeit in Anspruch nehmen.
  
