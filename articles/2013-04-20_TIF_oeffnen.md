@@ -10,14 +10,14 @@ Die Lösung ist sehr simpel:
 2. Registry öffnen (Start --> Ausführen --> Regedit)
 3. Zum passenden Eintrag navigieren:
 
-    Outlook 2007:
-    HKEY_CURRENT_USER\Software\Microsoft\Office\12.0\Outlook\Security
-    Outlook 2010:
-    HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Outlook\Security
-    Outlook 2013:
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Security
+        Outlook 2007:
+        HKEY_CURRENT_USER\Software\Microsoft\Office\12.0\Outlook\Security
+        Outlook 2010:
+        HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Outlook\Security
+        Outlook 2013:
+        HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Security
 
-Im Schlüssel "OutlookSecureTempFolder" ist der Pfad in dem die TIF Dateien und weitere Temp Dateien von Outlook liegen.
+    Im Schlüssel "OutlookSecureTempFolder" ist der Pfad in dem die TIF Dateien und weitere Temp Dateien von Outlook liegen.
 
 4. Den Inhalt des Ordners vom Pfad des Registry Schlüssels löschen.
    Der Inhalt des Ordners kann bedenkenlos komplett gelöscht werden.
